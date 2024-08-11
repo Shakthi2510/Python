@@ -1,0 +1,95 @@
+# AI Voice Assistant
+
+Welcome to the AI Voice Assistant project! This Python-based voice assistant is designed to help you manage your daily tasks and provide useful information through voice commands.
+
+## Features
+
+- **Voice Interaction**: Interact with the assistant using voice commands. The assistant can speak and understand commands in English.
+- **System Management**: Open and control various system applications such as Notepad, Command Prompt, and PowerShell.
+- **Media Control**: Play, pause, skip, and manage music playback. Also, take screenshots and control system volume.
+- **Web Interaction**: Search Wikipedia, Google, and retrieve current weather and temperature information.
+- **Social Media**: Access Instagram profiles and download profile pictures.
+- **Utilities**: Remember and retrieve information, trace phone numbers, and get news updates.
+
+## Requirements
+
+- Python 3.x
+- `pyttsx3`
+- `SpeechRecognition`
+- `PyAutoGUI`
+- `requests`
+- `BeautifulSoup4`
+- `wikipedia`
+- `pywikihow`
+- `GoogleNews`
+- `phonenumbers`
+- `instaloader`
+- `playsound`
+
+## Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/ai-voice-assistant.git
+
+cd ai-voice-assistant
+
+pip install pyttsx3 SpeechRecognition pyautogui requests beautifulsoup4 wikipedia pywikihow GoogleNews phonenumbers instaloader playsound
+
+Usage
+Run the Assistant
+
+Execute the script using Python:
+
+bash
+Copy code
+python assistant.py
+Voice Commands
+
+The assistant supports a variety of voice commands. Here are some examples:
+
+System Commands:
+"Open Notepad"
+"Open Command Prompt"
+"Volume Up"
+Media Commands:
+"Play next song"
+"Pause"
+"Take a screenshot"
+Web Commands:
+"Search Wikipedia for Python programming"
+"What is the weather like?"
+Social Media Commands:
+"Open Instagram profile for username"
+"Download Instagram profile picture"
+Customizing the Assistant
+
+You can customize the behavior of the assistant by modifying the assistant.py file. Update paths, commands, and settings according to your preferences.
+
+Manual Song Path Entry
+
+For commands related to music playback (e.g., "play song", "play next song", "play previous song"), the assistant will prompt you to enter the path to your music directory. Follow these steps:
+
+When prompted, provide the full path to the directory where your music files are stored.
+The assistant will validate the path and use it to locate and play your songs.
+Make sure the directory contains your music files and is accessible.
+
+Contact
+For any questions or feedback, please reach out to s.shakthi2004@gmail.com.
+
+
+### Customization Notes:
+- Replace `https://github.com/Shakthi2510/Python` with the actual URL of your GitHub repository.
+- Update the email and any specific details about the functionality or custom paths.
+- Add or remove any additional instructions or details specific to your project setup.
+
+This `README.md` provides a clear overview of the project, its installation process, and how to use it, making it easier for others to understand and contribute.
+
+
+### Key Additions:
+
+- **Manual Song Path Entry**: Added a section explaining how users can manually enter their song path when prompted by the assistant. This ensures users are aware of the process and can prepare their directories accordingly.
+
+Feel free to adjust the instructions based on the specific implementation details or any additional requirements you might have!
+
