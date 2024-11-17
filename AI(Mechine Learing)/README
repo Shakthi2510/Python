@@ -30,7 +30,7 @@ Welcome to the AI Voice Assistant project! This Python-based voice assistant is 
 
 1. **Clone the Repository**
 
-   ```bash
+   ``` 
    git clone https://github.com/yourusername/ai-voice-assistant.git
 
 cd ai-voice-assistant
@@ -42,8 +42,8 @@ Run the Assistant
 
 Execute the script using Python:
 
-bash
-Copy code
+ 
+   
 python assistant.py
 Voice Commands
 
